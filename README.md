@@ -1,8 +1,5 @@
 # Region Aware Blind Face Restoration
 
-ICS619 — MX-FR-T251.
-
-Blind face restoration adapted to Saudi and Middle Eastern faces.
 
 ---
 
@@ -44,7 +41,7 @@ Download the checkpoints from step 2 and run the demo provided in each baseline'
 
 ## 4. Dataset Preparation
 
-Build the cleaned dataset from raw wedding videos.
+Build the cleaned dataset from raw videos.
 
 ```bash
 python src/preprocess/preprocess.py \
@@ -111,14 +108,9 @@ src/metrics/
 ## TODO
 
 1. [x] Dataset preparation pipeline (`src/preprocess/`).
-2. [x] Checkpoints hosted on Google Drive.
+2. [] Checkpoints hosted on Google Drive.
 3. [x] Demo — run from each baseline's official repo with the downloaded checkpoints.
 4. [x] Inference and training — use the official repos linked above.
 5. [x] Evaluation pipeline (`src/metrics/`).
-6. [x] Example images and qualitative result figures.
+6. [] Example images and qualitative result figures.
 
----
-
-## Acknowledgements
-
-Metric implementations adapted from `ebtesam-l/BlindFaceRestoration-Analysis`.
