@@ -108,7 +108,7 @@ src/metrics/
 ## TODO
 
 1. [x] Dataset preparation pipeline (`src/preprocess/`).
-2. [ ] Checkpoints hosted on Google Drive.
+2. [ ] Checkpoints uploaded on Google Drive.
 3. [x] Demo — run from each baseline's official repo with the downloaded checkpoints.
 4. [x] Inference and training — use the official repos linked above.
 5. [x] Evaluation pipeline (`src/metrics/`).
