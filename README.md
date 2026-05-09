@@ -1,5 +1,15 @@
 # Region Aware Blind Face Restoration
 
+---
+
+## TODO
+
+1. [x] Dataset preparation pipeline (`src/preprocess/`).
+2. [x] Evaluation pipeline (`src/metrics/`).
+3. [ ] Checkpoints uploaded on Google Drive.
+6. [ ] Example images and qualitative result figures.
+4. [x] Demo — run from each baseline's official repo with the downloaded checkpoints.
+5. [x] Inference and training — use the official repos linked above.
 
 ---
 
@@ -103,14 +113,5 @@ src/metrics/
 └── ssim_lpips.py
 ```
 
----
 
-## TODO
-
-1. [x] Dataset preparation pipeline (`src/preprocess/`).
-2. [ ] Checkpoints uploaded on Google Drive.
-3. [x] Demo — run from each baseline's official repo with the downloaded checkpoints.
-4. [x] Inference and training — use the official repos linked above.
-5. [x] Evaluation pipeline (`src/metrics/`).
-6. [ ] Example images and qualitative result figures.
 
