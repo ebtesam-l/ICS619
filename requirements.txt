@@ -1,0 +1,32 @@
+# Pinned versions matching ebtesam-l/BlindFaceRestoration-Analysis.
+# These are tested with the metric implementations under src/metrics/.
+
+# Core
+basicsr==1.4.2
+clean-fid==0.1.35
+imageio==2.35.1
+lpips==0.1.4
+matplotlib==3.7.5
+numpy==1.24.4
+omegaconf==2.3.0
+opencv-contrib-python==4.8.0.74
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
+pillow==10.4.0
+piq==0.8.0
+PyYAML==6.0.1
+scikit-image==0.21.0
+scipy==1.10.1
+torch==1.12.0
+torchaudio==0.12.0
+torchvision==0.13.0
+tqdm==4.67.1
+
+# Identity score (optional — needs ArcFace resnet18_110.pth)
+# Already covered by torch + opencv above.
+
+# Demo
+gradio==4.16.0
+
+# Preprocessing
+facenet-pytorch==2.5.3   # MTCNN face detector (used by src/preprocess/detect_align.py)
