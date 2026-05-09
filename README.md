@@ -8,7 +8,7 @@
 2. [x] Evaluation pipeline (`src/metrics/`).
 3. [ ] Checkpoints uploaded on Google Drive.
 6. [ ] Example images and qualitative result figures.
-4. [x] Demo — run from each baseline's official repo with the downloaded checkpoints.
+4. [ ] Demo — run from each baseline's official repo with the downloaded checkpoints.
 5. [x] Inference and training — use the official repos linked above.
 
 ---
