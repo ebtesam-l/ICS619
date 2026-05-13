@@ -47,7 +47,7 @@ import re, os
 from pathlib import Path
 
 
-DRIVE_FILE = 'https://drive.google.com/file/d/1tcC-BkT9ED2d0uPgHfCEMszQpfwX_ALV/view?usp=share_link'
+DRIVE_FILE = ''
 
 m = re.search(r'/d/([a-zA-Z0-9_-]+)|id=([a-zA-Z0-9_-]+)', DRIVE_FILE)
 file_id = (m.group(1) or m.group(2)) if m else DRIVE_FILE.strip()
