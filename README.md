@@ -6,9 +6,8 @@
 
 1. [x] Dataset preparation pipeline (`src/preprocess/`).
 2. [x] Evaluation pipeline (`src/metrics/`).
-3. [ ] Checkpoints uploaded on Google Drive.
-6. [ ] Example images and qualitative result figures.
-4. [ ] Demo — run from each baseline's official repo with the downloaded checkpoints.
+3. [x] Checkpoints uploaded on Google Drive.
+4. [x] Demo — run from each baseline's official repo with the downloaded checkpoints and for diiface (`src/difface_gradio_demo.py`)
 5. [x] Inference and training — use the official repos linked above.
 
 ---
