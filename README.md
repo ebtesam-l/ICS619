@@ -34,6 +34,7 @@ Fine-tuned weights for the four baselines:
 **https://drive.google.com/drive/folders/1Zg4RxlbMdvAD9aTTx7Kf5vWTmXP0uwCa?usp=share_link**
 
 Download the four subfolders (`gfpgan`, `psfrgan`, `codeformer`, `difface`) and place them under `checkpoints/`.
+or use the attached chckpoints folder from the submision
 
 ---
 
